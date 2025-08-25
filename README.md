@@ -25,8 +25,8 @@ A Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload PDF d
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/rag-chatbot.git
-   cd rag-chatbot
+   https://github.com/Malleshappa-Patil/DocuMind-AI.git
+   cd DocuMind-AI
 
 2. **Set Up a Virtual Environment**
     ```bash
