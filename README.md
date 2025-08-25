@@ -1,8 +1,11 @@
 # DocuMind-AI
 
+---
+
 A Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload PDF documents, process their content, and query the document via natural language questions. The chatbot leverages local AI models (GPT4All) and a vector store (ChromaDB) to provide accurate responses with citations.
 
 ## Features
+
 - Upload and process PDF files.
 - Extract text, chunk it, and create embeddings for a vector database.
 - Retrieve relevant text chunks based on user queries.
@@ -11,9 +14,12 @@ A Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload PDF d
 - Local execution with no cloud dependencies.
 
 ## Prerequisites
+
 - Python 3.8 or higher.
 - Git (for cloning the repository).
 - Approximately 5-6 GB of free disk space (for model downloads).
+
+---
 
 ## Installation
 
@@ -43,6 +49,8 @@ A Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload PDF d
     The server will run on http://0.0.0.0:5000 in debug mode.
 
 5. Access the Frontend Open frontend/index.html in a web browser. Alternatively, serve it with a local server (e.g., python -m http.server in the frontend directory) to handle file uploads correctly.
+
+---
 
 ## Usage
 
@@ -97,6 +105,8 @@ DocuMind-AI/
 
 3. **README.md:** This file, providing project documentation.
 
+---
+
 ## Project Files
 
 1. **app.py**
@@ -120,12 +130,26 @@ DocuMind-AI/
 4. **requirements.txt**
 - Lists dependencies including Flask, LangChain, GPT4All, and ChromaDB.
 
+---
+
 ## Contributing
 - Feel free to fork this repository, submit issues, or create pull requests to enhance the project. Suggestions for improvements include:
     - Support for multiple documents.
     - Better error handling for large PDFs.
     - Integration with larger AI models.
 
+---
+
 ## Acknowledgements
 - Built with inspiration from LangChain and GPT4All communities.
 - Uses ChromaDB for efficient vector storage.
+
+---
+
+## 📧 Contact
+
+For any questions or feedback regarding this project, feel free to reach out.
+
+-   **Email:** `mdpatil2004@gmail.com`
+
+Thank you for checking out the project!
