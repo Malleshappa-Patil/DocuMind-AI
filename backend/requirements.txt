@@ -1,0 +1,26 @@
+# Core Flask dependencies
+flask==3.0.0
+flask-cors==4.0.0
+
+# Document processing
+pypdf==4.0.1
+
+# LangChain and AI dependencies
+langchain==0.1.0
+langchain-community==0.0.13
+gpt4all==2.7.0
+
+# Math and ML dependencies
+numpy>=1.26.0
+sentence-transformers==2.5.1
+
+# Vector store alternatives (choose one)
+# Option 1: Try different FAISS version
+# faiss-cpu==1.7.4
+
+# Option 2: Use Chroma instead of FAISS (recommended)
+chromadb==0.4.22
+
+# Build tools
+setuptools>=69.0.0
+wheel
