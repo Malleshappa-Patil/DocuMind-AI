@@ -22,4 +22,18 @@ A Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload PDF d
    git clone https://github.com/your-username/rag-chatbot.git
    cd rag-chatbot
 
-2. 
+2. **Set Up a Virtual Environment
+    ```bash
+    python -m venv venv
+    venv/bin/activate  # On Windows venv\Scripts\activate
+
+3. **Install Dependencies
+    Install the required Python packages from the requirements.txt file:
+    ```bash
+    pip install -r backend/requirements.txt
+    ```
+    Note: The first run will download the Mistral-7B-OpenOrca model (~4GB), which may take time depending on your internet speed.
+
+4. **Run the Application
+    Navigate to the backend directory and start the Flask server:
+    ```bash
