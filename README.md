@@ -71,13 +71,8 @@ DocuMind-AI/
 │   ├── __pycache__/
 │   ├── chroma_db/
 │   ├── uploads/
-│   │   ├── Insurance.pdf
+│   │   -- your uploaded document
 │   ├── git_cheat_sheet.pdf
-│   ├── venv/
-│   │   ├── bin/
-│   │   ├── include/
-│   │   ├── lib/
-│   │   └── share/
 │   ├── .gitignore
 │   ├── pyvenv.cfg
 │   ├── app.py
